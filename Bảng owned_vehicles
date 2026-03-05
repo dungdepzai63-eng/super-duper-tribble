@@ -1,0 +1,7 @@
+CREATE TABLE owned_vehicles (
+    owner VARCHAR(60),
+    plate VARCHAR(12) PRIMARY KEY,
+    vehicle LONGTEXT,
+    type VARCHAR(20),
+    stored TINYINT(1)
+);
