@@ -1,0 +1,20 @@
+endpoint_add_tcp "0.0.0.0:30120"
+endpoint_add_udp "0.0.0.0:30120"
+
+sv_licenseKey "LICENSE_KEY_CUA_BAN"
+sv_maxclients 64
+set onesync on
+
+sets sv_projectName "🔥 DUNG RP 🔥"
+sets sv_projectDesc "Server GTA Roleplay Chuyên Nghiệp"
+
+set mysql_connection_string "mysql://root:@localhost/dungrp?charset=utf8mb4"
+
+ensure oxmysql
+ensure ox_lib
+ensure es_extended
+ensure ox_inventory
+ensure esx_identity
+ensure esx_society
+ensure esx_policejob
+ensure esx_ambulancejob
